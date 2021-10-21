@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+}
+
+section {
+    width: 65%;
+    margin: 30px auto;
+    padding: 20px;
+    background: #E5E5E5;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 243px;
+    height: 213px;
+    background: #FFFFFF;
+    border: 1px solid #A68FFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 30px 20px;
+    position: relative;
+}
+
+.card:nth-child(1) {
+    border: 1px solid #A68FFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.card:nth-child(1)::before {
+    background-color: #A68FFF;
+}
+
+.card:nth-child(2)::before {
+    background: #8FBCFF;
+}
+
+.card:nth-child(3)::before {
+    background: #FF8FAA;
+}
+
+.card:nth-child(4)::before {
+    background: #A6CD74;
+}
+
+.card:nth-child(5)::before {
+    background: #FCC18A;
+}
+
+.card:nth-child(6)::before {
+
+    background: #6EDDDD;
+
+}
+
+.card:nth-child(2) {
+    border: 1px solid #8FBCFF;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 15px -10px #8FBCFF;
+    border-radius: 5px;
+}
+
+.card:nth-child(3) {
+    border: 1px solid #FF8FAA;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.card:nth-child(4) {
+    border: 1px solid #A6CD74;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.card:nth-child(5) {
+    border: 1px solid #FCC18A;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.card:nth-child(6) {
+    border: 1px solid #6EDDDD;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.card::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 49px;
+    right: 0;
+
+    width: 146px;
+    height: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.search-div input {
+    width: 78%;
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+
+.search-div {
+    display: flex;
+    background: #FFFFFF;
+    width: 91%;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #D0CDE2;
+    margin-bottom: 20px;
+}
+
+.search-div img {
+    margin-left: 20px;
+}
+
+.card__img {
+    width: 80px;
+    height: 80px;
+    margin: 30px 90px 10px;
+}
+
+.card__text {
+    margin: 0px 90px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #2B417B;
+}
